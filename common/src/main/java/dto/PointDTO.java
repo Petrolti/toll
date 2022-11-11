@@ -1,21 +1,10 @@
-package jdev.dto;
+package dto;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-//import javax.persistence.Column;
-//import javax.persistence.Entity;
-//import javax.persistence.Id;
-//import javax.persistence.IdClass;
-
-//@Entity(name ="POINT_DTO")
-//@IdClass(IdPointDTO.class)
 public class PointDTO {
-//    @Id
-//    @Column(name = "AUTO_ID")
     private String autoId;
-
-//    @Id
     private double lat;
     private double lon;
     private long time;
